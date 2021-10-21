@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body {
+    height: 100%;    
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header,section,article,footer {
+    width: 80%;
+    margin: 0 auto;
+}
+header, footer{
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+
+header {
+    height:20%;
+    line-height: calc(20vh - 10px);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+footer {
+    height: 5%;
+    line-height: calc(5vh - 10px);
+}
+
+section {
+    background-color: bisque;
+    height: 75vh;
+}
+
+article {
+    padding: 20px;
+}
