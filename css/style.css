@@ -54,4 +54,5 @@ article {
 article img {
     float:left;
     margin-right: 10px;
+    max-width: calc(100% - 10px);
 }
