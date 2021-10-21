@@ -36,13 +36,13 @@ header {
 }
 
 footer {
-    height: 5%;
     line-height: calc(5vh - 10px);
 }
 
 section {
     background-color: bisque;
     height: 75vh;
+    overflow: Auto;
 }
 
 article {
